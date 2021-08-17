@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Test project</title>
+</head>
+
+<body>
+
+
+    <!-- part 1 login area  -->
+    <div id="loginArea">
+
+
+        <h1> Wellcome to ARS Creative bank </h1>
+
+        <div class="loginForm box">
+
+            <h2 class="text-center h1">Log In</h2>
+
+            <label>  Email adress: </label><br>
+            <input id="email" type="text" placeholder="Enter your Email adress"><br><br>
+
+            <label> Password : </label><br>
+            <input id="password" type="password" placeholder="Enter your Password"><br>
+
+            <button type="button" id="loginBtn">Log In </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- part 2 clint area  -->
+
+    <div id="clintArea">
+        <h1> My Account </h1>
+
+        <div class="bankAmount">
+            <div class="depositarea">
+                <h3>Deposit</h3>
+                <h3>$ <span id='depositAmount'>00</span> </h3>
+            </div>
+
+            <div class="withdeawarea">
+                <h3>Withdeaw</h3>
+                <h3>$ <span id="withdrowAmount">00</span></h3>
+            </div>
+
+            <div class="balancearea">
+                <h3>Min Balance</h3>
+                <h3>$ <span id="mainBalance">100</span></h3>
+
+            </div>
+        </div>
+
+        <div class="bankWith">
+
+            <div class="depositBox">
+                <h3>Deposit</h3>
+                <input type="text" placeholder="$ amount you want to Deposit" id="depositInput" class="input"><br>
+                <button id="depositBtn">Deposit</button>
+            </div>
+
+            <div class="withdrawBox ">
+                <h3>withdeaw</h3>
+                <input type="text " placeholder="$ amount you want to withdeaw " id="withdrowInput" class="input"><br>
+                <button id="withdrowBtn">withdeaw</button>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
